@@ -1,0 +1,12 @@
+Source: ros-groovy-pr2-mechanism-msgs
+Section: misc
+Priority: extra
+Maintainer: Wim Meeussen <wim@hidof.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-message-generation,ros-groovy-std-msgs,ros-groovy-actionlib-msgs,ros-groovy-catkin
+Homepage: http://ros.org/wiki/pr2_mechanism_msgs
+Standards-Version: 3.9.2
+
+Package: ros-groovy-pr2-mechanism-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-actionlib-msgs,ros-groovy-message-runtime,ros-groovy-std-msgs
+Description: This package defines services that are used to communicate with the realtime control loop. It also defines messages that represent the state of the realtime controllers, the joints and the actuators.
