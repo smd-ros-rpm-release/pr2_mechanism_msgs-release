@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-mechanism-msgs
+Section: misc
+Priority: extra
+Maintainer: Wim Meeussen <wim@hidof.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-actionlib-msgs, ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-std-msgs
+Homepage: http://ros.org/wiki/pr2_mechanism_msgs
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-mechanism-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib-msgs, ros-hydro-message-runtime, ros-hydro-std-msgs
+Description: This package defines services that are used to communicate with the realtime control loop. It also defines messages that represent the state of the realtime controllers, the joints and the actuators.
