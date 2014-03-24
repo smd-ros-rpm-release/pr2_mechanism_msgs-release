@@ -1,0 +1,12 @@
+Source: ros-indigo-pr2-mechanism-msgs
+Section: misc
+Priority: extra
+Maintainer: Wim Meeussen <wim@hidof.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-actionlib-msgs, ros-indigo-catkin, ros-indigo-message-generation, ros-indigo-std-msgs
+Homepage: http://ros.org/wiki/pr2_mechanism_msgs
+Standards-Version: 3.9.2
+
+Package: ros-indigo-pr2-mechanism-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib-msgs, ros-indigo-message-runtime, ros-indigo-std-msgs
+Description: This package defines services that are used to communicate with the realtime control loop. It also defines messages that represent the state of the realtime controllers, the joints and the actuators.
